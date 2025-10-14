@@ -1,0 +1,249 @@
+
+:root {
+
+  /* Violet */
+
+  --violet-100: #4f3df8;
+
+  --violet-200: #3f2cf0;
+
+ 
+
+  /* Gray */
+
+  --gray-100: #ffffff;
+
+  --gray-200: #f8f8f8;
+
+  --gray-300: #d9d9d9;
+
+  --gray-400: #757575;
+
+  --gray-500: #202020;
+
+  --gray-600: #000000;
+
+ 
+
+  /* Blue */
+
+  --blue-100: #7c98b6;
+
+  --blue-200: #33475b;
+
+
+
+  --red-100: #ff0201;
+
+ 
+
+  /* Orange */
+
+  --orange-100: #fff6ee;
+
+ 
+
+  /* Greenish cyan */
+
+  --greenishCyan-100: #73c0ae;
+
+ 
+
+  /* Khaki */
+
+  --khaki-100: #ffbe0b;
+
+ 
+
+  /* Font */
+
+  --base-size: 16px;
+
+  --h1-size: 60px;
+
+  --h1-mobile-size: 40px;
+
+  --h2-size: 34px;
+
+  --h2-mobile-size: 34px;
+
+  --h3-size: 24px;
+
+  --h4-size: 21px;
+
+  --h5-size: 21px;
+
+  --h5-mobile-size: 18px;
+
+  --h6-size: 18px
+
+}
+
+ 
+
+body {
+
+font-size: var(--base-size);
+
+}
+
+:root {
+
+  /* Violet */
+
+  --violet-100: #4f3df8;
+
+  --violet-200: #3f2cf0;
+
+ 
+
+  /* Gray */
+
+  --gray-100: #ffffff;
+
+  --gray-200: #f8f8f8;
+
+  --gray-300: #d9d9d9;
+
+  --gray-400: #757575;
+
+  --gray-500: #202020;
+
+  --gray-600: #000000;
+
+ 
+
+  /* Blue */
+
+  --blue-100: #7c98b6;
+
+  --blue-200: #33475b;
+
+
+
+  --red-100: #ff0201;
+
+ 
+
+  /* Orange */
+
+  --orange-100: #fff6ee;
+
+ 
+
+  /* Greenish cyan */
+
+  --greenishCyan-100: #73c0ae;
+
+ 
+
+  /* Khaki */
+
+  --khaki-100: #ffbe0b;
+
+ 
+
+  /* Font */
+
+  --base-size: 16px;
+
+  --h1-size: 60px;
+
+  --h1-mobile-size: 40px;
+
+  --h2-size: 34px;
+
+  --h2-mobile-size: 34px;
+
+  --h3-size: 24px;
+
+  --h4-size: 21px;
+
+  --h5-size: 21px;
+
+  --h5-mobile-size: 18px;
+
+  --h6-size: 18px
+
+}
+
+ 
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: var(--base-size);
+}
+
+main{
+  background-color: var(--gray-200);
+  margin :2%;
+  padding: 2%;
+}
+
+footer{  
+  margin :2%;
+  padding: 2%;}
+
+header{
+  position: relative;
+  justify-items: center;
+}
+
+div.gris{
+  display: block;
+  width: 100%;
+  background-color: var(--gray-200);
+}
+
+img.la_head{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+ul.lst-orange li::marker{
+  color: rgb(255, 94, 0) ;
+}
+
+ul.lst-violet  ::marker  {
+  color : var(--violet-200);
+}
+
+img:not[lkdn]{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.lkdn{
+  width: 2%;
+  display: block;
+  padding-top: 10%;
+  margin-left: 0;
+  margin-bottom: 10%;
+}
+
+h1{
+  font-size: var(--h1-mobile-size);
+}
+
+h2{
+  font-size: var(--h2-mobile-size);
+}
+
+h3{
+  font-size: var(--h3-mobile-size);
+}
+
+h4{
+  font-size: var(--h4-mobile-size);
+}
+
+h5{
+  font-size: var(--h5-mobile-size);
+}
+
+h6{
+  font-size: var(--h6-mobile-size);
+}
