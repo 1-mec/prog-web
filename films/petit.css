@@ -1,0 +1,27 @@
+
+
+
+    #movie_app_container ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        display : inline;
+    }
+
+    #movie_app_container li {
+        margin: 10px;
+        flex: 0 1 calc(20% - 10px);
+        box-sizing: border-box;
+    }
+
+    #movie_app_container img {
+        width: 100%;
+        transition: transform 0.2s ease-in-out;
+        cursor: pointer;
+    }
+
+    #movie_app_container img:hover {
+        transform: scale(1.01);
+    }

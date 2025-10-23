@@ -1,0 +1,25 @@
+#movie_app_container ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+#movie_app_container li {
+      margin: 10px;
+      flex: 0 1 auto;
+      box-sizing: border-box;
+      width: calc(20% - 20px);
+  }
+
+#movie_app_container img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      transition: transform 0.2s ease-in-out;
+      cursor: pointer;
+  }
+
+#movie_app_container img:hover {
+      transform: scale(1.1);
+  }

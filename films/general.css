@@ -1,0 +1,46 @@
+h3 , h2{
+  text-align: center;
+}
+
+h2{
+
+  border-bottom: 3px solid red ;
+}
+
+
+div {
+  background-color: #F0F0F3;
+  border-radius: 0.8px;
+}
+body{
+  background-color: #F0F0F2;
+  border-radius: 0.8px;
+}
+
+#movie_app_container img {
+  box-shadow: 0 2px 3px rgba(0,0,0,0.5);
+}
+
+#movie_app_container img {
+  box-shadow: 1px 2px 3px rgba(0,0,0,1);
+}
+
+#movie_app_container input {
+  position: relative;
+  margin: 10px;
+  left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%);
+}
+
+#movie_app_container {
+    max-height: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#search {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
